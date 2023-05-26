@@ -1,0 +1,30 @@
+Here's the organigramme for the provided code:
+
+1.Start
+2.Import the necessary libraries: cv2, cvzone, and FaceMeshDetector
+3.Define the main function
+4.Create a VideoCapture object to capture video from the default camera (index 0)
+5.Create a FaceMeshDetector object with a maximum of 1 face
+6.Define the width (W) of the object in centimeters
+7.Define the focal length (f)
+8.Enter the main loop
+9.Read a frame from the video capture
+10.Use the FaceMeshDetector to find face meshes in the frame
+11.If faces are detected
+   - Get the first face from the list of faces
+   - Extract the left and right points from the face mesh
+   - Draw a line connecting the left and right points on the frame
+   - Draw filled circles at the left and right points
+   - Calculate the width (w) between the left and right points
+   - Calculate the distance (d) using the formula: d = (W * f) / w
+   - Display the depth text on the frame
+12.Show the frame with the drawn annotations
+13.Check if the 'q' key is pressed to exit the loop
+14.Release the video capture object
+15.Close all windows
+16.End
+
+
+Note:
+   -The code assumes that you have the necessary dependencies
+    installed, including the cvzone library and the FaceMeshModule.
