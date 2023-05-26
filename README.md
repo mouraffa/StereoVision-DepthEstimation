@@ -40,4 +40,5 @@ Contributions to the StereoVision-DepthEstimation project are always welcome. If
 - [FaceMeshModule](https://github.com/cvzone/cvzone/tree/main/Self%20Projects/Face%20Landmarks) - FaceMeshModule from cvzone library for facial feature detection and tracking
 
 ## Resuls:
-![Alt Text](t1.png)    ![Alt Text](t2.png)
+![Alt Text](t1.png)   
+![Alt Text](t2.png)
